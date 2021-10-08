@@ -1,0 +1,26 @@
+.headerContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  span {
+    color: var(--heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    span {
+      color: var(--highlight);
+    }
+  }
+
+}
